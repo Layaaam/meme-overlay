@@ -1,0 +1,19 @@
+# Meme images — add your own locally, never committed
+memes/**/*.png
+memes/**/*.jpg
+memes/**/*.jpeg
+memes/**/*.webp
+!memes/**/.gitkeep
+
+# MediaPipe model file — downloaded automatically on first run
+face_landmarker.task
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
